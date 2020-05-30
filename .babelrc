@@ -1,12 +1,6 @@
 {
     "presets": ["@babel/preset-react", "@babel/preset-env"],
     "plugins": [ 
-      "babel-plugin-styled-components", 
-      "@babel/plugin-proposal-class-properties",
-      ["transform-inline-environment-variables", {
-      "include": [
-        "NODE_ENV"
-      ]
-      }]
+      "babel-plugin-styled-components"
     ]
 }
