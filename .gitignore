@@ -1,0 +1,11 @@
+node_modules
+.cache
+dist
+firestore-debug.log
+.firebase
+package-lock.json
+public
+firebase-debug.log
+
+.DS_Store
+keys

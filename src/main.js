@@ -2,6 +2,7 @@ import React from 'react'
 
 import styled, { createGlobalStyle } from "styled-components";
 import { Logos } from './assets';
+import { Home } from './views/home';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
@@ -30,8 +31,8 @@ export const Main = () => {
     return (
         <>
               <GlobalStyle />
-              <h1>Hola mundo</h1>
               <Logo src={Logos.bg_black}/>
+              <Home></Home>
         </>
     )
 }
