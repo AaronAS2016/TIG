@@ -1,7 +1,7 @@
 {
-  "name": "tyc-site",
+  "name": "tig",
   "version": "0.1.0",
-  "description": "TYC Site",
+  "description": "TIG",
   "main": "index.js",
   "scripts": {
     "watch": "parcel src/index.html"
@@ -30,6 +30,6 @@
     "styled-components": "^5.0.1"
   },
   "alias":{
-    "@tyc" : "./src"
+    "@tig" : "./src"
   }
 }
