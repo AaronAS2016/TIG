@@ -23,5 +23,10 @@
   },
   "alias": {
     "@tig": "./src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3"
   }
 }
