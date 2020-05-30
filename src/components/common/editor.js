@@ -3,7 +3,7 @@ import EditorJS from '@editorjs/editorjs';
 
 import styled from "styled-components";
 
-const Contenedor = styled.div`
+const Container = styled.div`
     width: 100%;
     max-width: 70vw;
     margin: 0 auto;
@@ -23,9 +23,9 @@ export const Editor = () => {
 
     return (
         <>
-            <Contenedor>
+            <Container>
                 <div id="editorjs"></div>
-            </Contenedor>
+            </Container>
         </>
     );
 };
