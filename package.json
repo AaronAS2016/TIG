@@ -17,10 +17,14 @@
   "dependencies": {
     "@editorjs/header": "^2.4.1",
     "@editorjs/list": "^1.4.0",
+    "fs": "0.0.1-security",
+    "nodegit": "^0.26.5",
     "parcel-bundler": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-spring": "^8.0.27",
+    "shelljs": "^0.8.4",
+    "simple-git": "^2.5.0",
     "styled-components": "^5.0.1"
   },
   "alias": {
